@@ -11,4 +11,8 @@ class ViewController {
     public String View(){
         return "view";
     }
+     @GetMapping("view_copy")
+    public String ViewCopy(){
+        return "view_copy";
+    }
 }
